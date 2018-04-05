@@ -1,0 +1,17 @@
+ngoại trừ những lệnh cơ bản touch,cat,head,tail
+
+wc <file> Hiển thị số dòng, từ, kí tự của file
+	-l dòng
+	-w từ
+ 	-c kí tự
+tail -n +4 <file> hiển thị từ 4>cuối file (maybe)
+cat > <file> xuất những kí tự tiếp theo vào file
+cat <file1> > <file2> copy nội dung file 1 vào file 2
+sed -n 5,8p <file> hiển thị nội dung file từ dòng 5=>8
+sort -d sắp xếp theo bảng chữ cái
+sort -r sắp xếp ngược
+
+Ý kiến riêng (có thể đúng có thể sai do em chưa đọc tài liệu)
+pipe |
+dùng để thực hiện lệnh song song ? Hay là lấy đầu ra của lệnh trước để làm input của lệnh sau
+
