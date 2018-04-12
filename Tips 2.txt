@@ -1,0 +1,16 @@
+﻿tree <dir> - Hiển thị thư mục ở dạng cây
+less more - Hiển thị nội dung chỉ định theo trang, tiện theo dõi
+ln -s - liên kết mềm
+ln - liên kết cứng
+cp -a - copy toàn bộ nội dung thư mục
+mv <tên 1> <tên 2> đổi tên file,thư mục
+
+wildcard [] ? *
+? Kí tự
+[] khoảng
+* tất cả
+! phủ định
+
+grep <nội dung> <file> - tìm kiếm trong file có nội dung này không
+
+[!b-c][a-e]* - File bắt đầu bằng kí tự a=>e nhưng không có b=>c
