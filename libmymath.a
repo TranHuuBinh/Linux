@@ -1,0 +1,45 @@
+#include<libmymath.h>
+
+double GiaiThua(int n)
+{
+	double gt=1;
+	for (int i=2; i<=n; i++)
+	{
+		gt*=i;
+	}
+	return gt;
+}
+
+long TinhTongChan(int n)
+{
+	long sum=0;
+	for (int i=2; i<=n; i++)
+	{
+		if (i%2==0)
+			sum+=i;
+	}
+	return sum;
+}
+
+long TinhTongLe(int n)
+{
+	long sum=0;
+	for (int i=1; i<=n; i++)
+	{
+		if (i%2!=0)
+			sum+=i;
+	}
+	return sum;
+}
+
+
+long LuyThua(int x,int n)
+{
+	long result=1;
+	for (int i=1; i<=n; i++)
+	{
+		result*=x;
+	}
+	return result;
+}
+
